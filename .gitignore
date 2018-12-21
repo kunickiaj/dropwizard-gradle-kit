@@ -1,3 +1,8 @@
+# Git
+*.rej
+*.orig
+
+# Gradle
 .gradle
 /build/
 
@@ -12,3 +17,29 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+
+# VS Code
+**/.factorypath
+.vscode
+
+# Eclipse
+.classpath
+.project
+.settings
+
+#OSX
+.DS_Store
+
+.gitreview
+
+# generated directories
+data/
+meta/
+wal/
+out/
